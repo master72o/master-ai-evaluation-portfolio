@@ -19,31 +19,34 @@ My work bridges **AI Evaluation Engineering**, **Human Feedback (RLHF/DPO)**, **
 
 ---
 
-## 🏛️ Featured Portfolio Index (16 Production-Grade Repositories)
+## 🏛️ Featured Portfolio Index (17 Production-Grade Repositories)
 
-Here is my core portfolio index of 16 production-grade repositories (93/93 passing automated tests):
+Here is my core portfolio index of 17 production-grade repositories (95/95 passing automated tests):
+
+### 📋 AI Data Annotation & Case Studies
+1. [**`ai-data-annotator-portfolio-case-study`**](https://github.com/master72o/ai-data-annotator-portfolio-case-study) — Comprehensive AI Data Annotator Portfolio Case Study presenting SFT/RLHF datasets, labeling guidelines, sample annotations, QA methodology, and error taxonomy breakdowns.
+2. [**`rlhf-ai-safety-annotation-manual`**](https://github.com/master72o/rlhf-ai-safety-annotation-manual) — 25-page RLHF & AI Safety Human Annotation Manual & Standard Operating Procedure (SOP).
+3. [**`medical-legal-ai-annotation-guidelines`**](https://github.com/master72o/medical-legal-ai-annotation-guidelines) — Domain-Specific Medical & Legal AI Data Annotation Guidelines & Subject Matter Expert (SME) Workflows.
 
 ### 📊 AI Evaluation & Metrics
-1. [**`llm-response-quality-evaluator`**](https://github.com/master72o/llm-response-quality-evaluator) — Multi-engine LLM response quality & alignment evaluator (Deterministic BLEU/ROUGE, Heuristics, BERTScore, LLM-as-a-Judge).
-2. [**`universal-llm-evaluation-rubric-library`**](https://github.com/master72o/universal-llm-evaluation-rubric-library) — Universal library of 18 modular evaluation rubrics for scoring reasoning, safety, alignment, and formatting.
-3. [**`customer-support-ai-benchmark`**](https://github.com/master72o/customer-support-ai-benchmark) — Custom domain customer support LLM benchmark evaluating refund reasoning, policy compliance, empathy, and human escalation.
+4. [**`llm-response-quality-evaluator`**](https://github.com/master72o/llm-response-quality-evaluator) — Multi-engine LLM response quality & alignment evaluator (Deterministic BLEU/ROUGE, Heuristics, BERTScore, LLM-as-a-Judge).
+5. [**`universal-llm-evaluation-rubric-library`**](https://github.com/master72o/universal-llm-evaluation-rubric-library) — Universal library of 18 modular evaluation rubrics for scoring reasoning, safety, alignment, and formatting.
+6. [**`customer-support-ai-benchmark`**](https://github.com/master72o/customer-support-ai-benchmark) — Custom domain customer support LLM benchmark evaluating refund reasoning, policy compliance, empathy, and human escalation.
 
-### 🤝 RLHF, Human Feedback & Annotation Guidelines
-4. [**`human-preference-rlhf-dataset`**](https://github.com/master72o/human-preference-rlhf-dataset) — End-to-end human preference annotation framework, consensus filtering, and HuggingFace DPO dataset export.
-5. [**`rlhf-ai-safety-annotation-manual`**](https://github.com/master72o/rlhf-ai-safety-annotation-manual) — Comprehensive 25-page RLHF & AI Safety Human Annotation Manual & Standard Operating Procedure (SOP).
-6. [**`medical-legal-ai-annotation-guidelines`**](https://github.com/master72o/medical-legal-ai-annotation-guidelines) — Domain-Specific Medical & Legal AI Data Annotation Guidelines & Subject Matter Expert (SME) Workflows.
+### 🤝 RLHF & Human Feedback Pipelines
+7. [**`human-preference-rlhf-dataset`**](https://github.com/master72o/human-preference-rlhf-dataset) — End-to-end human preference annotation framework, consensus filtering, and HuggingFace DPO dataset export.
+8. [**`preference-modeling-rlhf`**](https://github.com/master72o/preference-modeling-rlhf) — Bradley-Terry reward loss ($\mathcal{L}_{BT}$) evaluation, margin distributions ($\Delta r$), and implicit DPO reward metrics.
 
 ### 🔍 Data Quality, Benchmarking & Reliability
-7. [**`llm-annotation-quality-lab`**](https://github.com/master72o/llm-annotation-quality-lab) — Statistical quality control laboratory for Inter-Annotator Agreement (Cohen's Kappa, Fleiss' Kappa, Krippendorff's Alpha).
-8. [**`llm-judge-reliability-benchmark`**](https://github.com/master72o/llm-judge-reliability-benchmark) — Benchmark for auditing LLM-as-a-Judge position bias ($A/B ightarrow B/A$), verbosity bias, self-preference, and ECE calibration.
-9. [**`llm-hallucination-factuality-benchmark`**](https://github.com/master72o/llm-hallucination-factuality-benchmark) — NLI contradiction analysis & atomic claim factuality verification framework.
-10. [**`rag-evaluation-lab`**](https://github.com/master72o/rag-evaluation-lab) — Production RAG Triad suite (Faithfulness, Answer Relevance, Context Relevance, Precision@K, Recall@K).
-11. [**`llm-prompt-regression-suite`**](https://github.com/master72o/llm-prompt-regression-suite) — CI/CD automated prompt engineering regression testing suite for model drift and formatting breakages.
-12. [**`llm-safety-redteam-evals`**](https://github.com/master72o/llm-safety-redteam-evals) — Red-teaming and safety suite probing models for adversarial jailbreaks, toxic generation, PII leaks, and refusal boundaries.
-13. [**`llm-model-comparison-benchmark`**](https://github.com/master72o/llm-model-comparison-benchmark) — Multi-model arena benchmark featuring Bradley-Terry Elo ratings with 95% CIs and radar plots.
-14. [**`preference-modeling-rlhf`**](https://github.com/master72o/preference-modeling-rlhf) — Bradley-Terry reward loss ($\mathcal{L}_{BT}$) evaluation, margin distributions ($\Delta r$), and implicit DPO reward metrics.
-15. [**`agent-evaluation-framework`**](https://github.com/master72o/agent-evaluation-framework) — Multi-turn AI agent trajectory evaluation framework measuring tool-call schema compliance and loop detection.
-16. [**`ai-quality-evaluation-platform`**](https://github.com/master72o/ai-quality-evaluation-platform) — Unified AI governance orchestrator combining quality evaluators, safety scanners, and compliance rubrics into executive dashboards.
+9. [**`llm-annotation-quality-lab`**](https://github.com/master72o/llm-annotation-quality-lab) — Statistical quality control laboratory for Inter-Annotator Agreement (Cohen's Kappa, Fleiss' Kappa, Krippendorff's Alpha).
+10. [**`llm-judge-reliability-benchmark`**](https://github.com/master72o/llm-judge-reliability-benchmark) — Benchmark for auditing LLM-as-a-Judge position bias ($A/B ightarrow B/A$), verbosity bias, self-preference, and ECE calibration.
+11. [**`llm-hallucination-factuality-benchmark`**](https://github.com/master72o/llm-hallucination-factuality-benchmark) — NLI contradiction analysis & atomic claim factuality verification framework.
+12. [**`rag-evaluation-lab`**](https://github.com/master72o/rag-evaluation-lab) — Production RAG Triad suite (Faithfulness, Answer Relevance, Context Relevance, Precision@K, Recall@K).
+13. [**`llm-prompt-regression-suite`**](https://github.com/master72o/llm-prompt-regression-suite) — CI/CD automated prompt engineering regression testing suite for model drift and formatting breakages.
+14. [**`llm-safety-redteam-evals`**](https://github.com/master72o/llm-safety-redteam-evals) — Red-teaming and safety suite probing models for adversarial jailbreaks, toxic generation, PII leaks, and refusal boundaries.
+15. [**`llm-model-comparison-benchmark`**](https://github.com/master72o/llm-model-comparison-benchmark) — Multi-model arena benchmark featuring Bradley-Terry Elo ratings with 95% CIs and radar plots.
+16. [**`agent-evaluation-framework`**](https://github.com/master72o/agent-evaluation-framework) — Multi-turn AI agent trajectory evaluation framework measuring tool-call schema compliance and loop detection.
+17. [**`ai-quality-evaluation-platform`**](https://github.com/master72o/ai-quality-evaluation-platform) — Unified AI governance orchestrator combining quality evaluators, safety scanners, and compliance rubrics into executive dashboards.
 
 ---
 
