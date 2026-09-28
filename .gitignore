@@ -1,0 +1,17 @@
+.venv/
+.DS_Store
+*/.venv/
+*.pyc
+__pycache__/
+{'name': 'llm-response-quality-evaluator', 'desc': 'Multi-engine LLM response quality evaluator supporting deterministic, heuristic, and model-based metrics with detailed JSON reporting.'}/
+{'name': 'human-preference-rlhf-dataset', 'desc': 'Human preference data collection, pairwise annotation, consensus filtering, and RLHF/DPO dataset preparation pipeline.'}/
+{'name': 'llm-annotation-quality-lab', 'desc': "Inter-annotator agreement (Cohen's & Fleiss' Kappa, Krippendorff's Alpha), label noise detection, and annotation quality control framework."}/
+{'name': 'llm-judge-reliability-benchmark', 'desc': 'LLM-as-a-judge reliability benchmark for detecting position bias, verbosity bias, self-preference, and calibration error.'}/
+{'name': 'llm-hallucination-factuality-benchmark', 'desc': 'Ground truth factuality verification, NLI contradiction analysis, and hallucination benchmark framework.'}/
+{'name': 'rag-evaluation-lab', 'desc': 'RAG triad evaluation framework assessing faithfulness, answer relevance, context relevance, and retrieval precision/recall.'}/
+{'name': 'llm-prompt-regression-suite', 'desc': 'CI/CD prompt engineering regression testing suite for evaluating model drift, performance degradation, and prompt variations.'}/
+{'name': 'llm-safety-redteam-evals', 'desc': 'Automated red-teaming, jailbreak robustness testing, safety evaluation, and toxicity benchmark suite for LLMs.'}/
+{'name': 'llm-model-comparison-benchmark', 'desc': 'Multi-model comparative evaluation framework featuring Bradley-Terry Elo rating calculation, win-rate matrix generation, and radar charts.'}/
+{'name': 'preference-modeling-rlhf', 'desc': 'Bradley-Terry reward modeling, preference pair loss evaluation, margin distribution analysis, and DPO alignment dataset analyzer.'}/
+{'name': 'agent-evaluation-framework', 'desc': 'Multi-turn AI agent trajectory evaluation framework measuring tool-call accuracy, execution efficiency, and loop detection.'}/
+{'name': 'ai-quality-evaluation-platform', 'desc': 'Enterprise end-to-end AI quality, governance, rubric validation, automated evaluation orchestrator and dashboard reporter.'}/
