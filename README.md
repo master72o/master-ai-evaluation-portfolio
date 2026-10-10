@@ -39,7 +39,8 @@ Here is my core portfolio index of 17 production-grade repositories (95/95 passi
 
 ### 🔍 Data Quality, Benchmarking & Reliability
 9. [**`llm-annotation-quality-lab`**](https://github.com/master72o/llm-annotation-quality-lab) — Statistical quality control laboratory for Inter-Annotator Agreement (Cohen's Kappa, Fleiss' Kappa, Krippendorff's Alpha).
-10. [**`llm-judge-reliability-benchmark`**](https://github.com/master72o/llm-judge-reliability-benchmark) — Benchmark for auditing LLM-as-a-Judge position bias ($A/B ightarrow B/A$), verbosity bias, self-preference, and ECE calibration.
+10. [**`llm-judge-reliability-benchmark`**](https://github.com/master72o/llm-judge-reliability-benchmark) — Benchmark for auditing LLM-as-a-Judge position bias ($A/B 
+ightarrow B/A$), verbosity bias, self-preference, and ECE calibration.
 11. [**`llm-hallucination-factuality-benchmark`**](https://github.com/master72o/llm-hallucination-factuality-benchmark) — NLI contradiction analysis & atomic claim factuality verification framework.
 12. [**`rag-evaluation-lab`**](https://github.com/master72o/rag-evaluation-lab) — Production RAG Triad suite (Faithfulness, Answer Relevance, Context Relevance, Precision@K, Recall@K).
 13. [**`llm-prompt-regression-suite`**](https://github.com/master72o/llm-prompt-regression-suite) — CI/CD automated prompt engineering regression testing suite for model drift and formatting breakages.
@@ -94,3 +95,12 @@ Here is my core portfolio index of 17 production-grade repositories (95/95 passi
 
 ---
 *Created & Maintained by [master72o](https://github.com/master72o)*
+
+---
+
+## 🔬 Benchmark Methodology & Results Provenance
+
+> [!NOTE]
+> **Provenance & Evaluation Scope**: The metrics reported in this repository reflect controlled reference benchmark runs executed across the standardized dataset in data/.
+> - **Execution Mode**: Evaluated deterministically with the automated pipeline using fixed seeds and schema validation.
+> - **Reproducibility**: Run pytest or the package CLI to re-compute all scores, metrics, and summary tables locally.
