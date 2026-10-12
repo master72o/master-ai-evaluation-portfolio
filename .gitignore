@@ -15,3 +15,7 @@ __pycache__/
 {'name': 'preference-modeling-rlhf', 'desc': 'Bradley-Terry reward modeling, preference pair loss evaluation, margin distribution analysis, and DPO alignment dataset analyzer.'}/
 {'name': 'agent-evaluation-framework', 'desc': 'Multi-turn AI agent trajectory evaluation framework measuring tool-call accuracy, execution efficiency, and loop detection.'}/
 {'name': 'ai-quality-evaluation-platform', 'desc': 'Enterprise end-to-end AI quality, governance, rubric validation, automated evaluation orchestrator and dashboard reporter.'}/
+
+# Auto-added standard ignores
+.pytest_cache/
+.coverage
