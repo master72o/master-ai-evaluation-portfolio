@@ -12,6 +12,7 @@ FLAGSHIP_REPOS = [
     "agentbench-works",
     "trustboundary-ai-security-lab",
     "temporal-grounding-lab",
+    "rank-fix-and-train-ai",
 ]
 
 
