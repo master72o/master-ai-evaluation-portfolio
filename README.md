@@ -49,6 +49,12 @@ It brings together:
 - **`documentvision-multimodal-benchmark`**: `18 / 18 Pass` — Added ICDAR DocVQA ANLS, numeric tolerance matcher, and COCO `mAP@[.50:.95]`.
 - **`trustboundary-ai-security-lab`**: `25 / 25 Pass` — Added PII redaction engine, SSRF/path-traversal tool sandboxing, and reversed/URL canary detection.
 - **`temporal-grounding-lab`**: `12 / 12 Pass` — Added `R@1-AUC` curve integration, boundary bias diagnostics, and 1D temporal NMS.
+- **`annotatoriq-data-quality-ops`**: `42 / 42 Pass` — Added Dawid-Skene style confidence-weighted consensus and SME overturn rate auditing.
+- **`rag-reliability-observatory`**: `28 / 28 Pass` — Added rank-weighted context utilization efficiency and severity-weighted reliability index.
+- **`agentbench-works`**: `25 / 25 Pass` — Added multi-variant budget efficiency comparison and cost-per-successful-task Pareto ranking.
+- **`llm-judge-reliability-benchmark`**: `9 / 9 Pass` — Added harshness/leniency calibration drift and false-approval rate diagnostics.
+- **`llm-hallucination-factuality-benchmark`**: `10 / 10 Pass` — Added atomic claim density per 100 words and hallucination risk-tier profiling.
+- **`llm-prompt-regression-suite`**: `7 / 7 Pass` — Added regression breakdown aggregator, worst-degraded test ranking, and CI release gating.
 - **`rank-fix-and-train-ai`**: `19 / 19 Pass` — Added length-ratio divergence scoring, budget-constrained threshold calibration, and DPO/Wilson test suites.
 
 ---
